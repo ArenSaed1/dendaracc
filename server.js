@@ -40,7 +40,7 @@ const cmd = require("node-cmd");
 const prefix = "z!";
 const cooldown = new Set();
 const cdtime = 7;
-client.login("Nzg0MzA1NzI3MTM2MDcxNzIy.X8nXoQ.i3eYGSOLUsy7idYRCwkxfkl6eus");
+client.login("Nzg0MzA1MTU1MTgwNDYyMDkx.X8nXGA.ycnDCvtBS5jN-6HbQEBvUOKcTXg");
 ///////////////////////////////////////////////////////////////////////////////
 client.on("ready", () => {
   console.log(`${client.user.tag}`);
