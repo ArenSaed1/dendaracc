@@ -40,7 +40,7 @@ const cmd = require("node-cmd");
 const prefix = "z!";
 const cooldown = new Set();
 const cdtime = 7;
-client.login("Nzg0MzA1MTU1MTgwNDYyMDkx.X8nXGA.ycnDCvtBS5jN-6HbQEBvUOKcTXg");
+client.login("NzcyMDUyNjM0NjA0NDA0NzY2.X51EDA.sMuE8MySmz_cLkU75Fh7gDey7Ww");
 ///////////////////////////////////////////////////////////////////////////////
 client.on("ready", () => {
   console.log(`${client.user.tag}`);
@@ -76,12 +76,12 @@ client.on("message", async message => {
         `https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot`
       ).setDescription(`
  <a:emoji_5:797912346759659591> __**Info Commands**__ <a:emoji_5:797912346759659591>
- <a:emoji_12:798075762682757120> \`c!userinfo\`
- <a:emoji_12:798075762682757120> \`c!serverinfo\`
- <a:emoji_12:798075762682757120> \`c!ping\`
- <a:emoji_12:798075762682757120> \`c!bot\`
- <a:emoji_12:798075762682757120> \`c!invite\`
- <a:emoji_12:798075762682757120> \`c!support\`
+ <a:emoji_12:798075762682757120> \`z!userinfo\`
+ <a:emoji_12:798075762682757120> \`z!serverinfo\`
+ <a:emoji_12:798075762682757120> \`z!ping\`
+ <a:emoji_12:798075762682757120> \`z!bot\`
+ <a:emoji_12:798075762682757120> \`z!invite\`
+ <a:emoji_12:798075762682757120> \`z!support\`
 
  <a:emoji_5:797912346759659591> __**Moderation Commands**__ <a:emoji_5:797912346759659591>
  <a:emoji_16:798111136145997824> \`c!lock\` <:5E886A9E730D45A692E90FBE6F418F05:798508482407039017>
